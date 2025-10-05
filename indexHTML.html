@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RPG: Kimetsu no Yaiba</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;600;700&family=Noto+Serif+JP:wght@400;600;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+2&family=Comfortaa&family=Fredoka&family=Nunito&family=Poppins&family=Quicksand&family=Rubik&family=Varela+Round&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="KM.css">
+
+</head>
+<body>
+
+    <header>
+        <div class="header-content">
+            <div class="logo">
+                <img src="logo.png"/>
+                <span>KIMETSU NO YAIBA: RPG</span>
+            </div>
+            <div class="menu-toggle" id="menuToggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </header>
+    <nav id="nav">
+        <ul class="nav-links">
+            <li><a href="#" data-page="principal" class="nav-item active"> Home </a></li>
+            <li><a href="#" data-page="sistemas" class="nav-item"> Systems </a></li>
+            <li><a href="#" data-page="historia" class="nav-item"> History </a></li>
+            <li><a href="#" data-page="personagens" class="nav-item"> Characters </a></li>
+        </ul>
+    </nav>
+    <div class="overlay" id="overlay"></div>
+
+    <!-- PRINCIPAL PAGE -->
+
+    <div class="page active" id="principal">
+        <div class="container">
+
+
+            <div class="image-placeholder">
+                <img src="principal.png"></img>
+            </div>
+
+            <div class="updates-section">
+
+                <h1> Atualizações </h1>
+                
+                <div class="update-card" data-update="update-1">
+                    <div class="update-title">(xxx)</div>
+                    <div class="update-date">(xxx)</div>
+                </div>
+
+                <div class="update-card" data-update="update-2">
+                    <div class="update-title">(xxx)</div>
+                    <div class="update-date">(xxx)</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- UPDATE SUBPAGES -->
+    <div class="page" id="update-1">
+        <div class="container">
+            <button class="back-button" data-back="principal">← (xxx)</button>   
+                <h1> Atualizações </h1>
+
+            <div class="image-placeholder">
+                🖼️
+            </div>
+
+            <div class="content-section">
+                <h2>(xxx)</h2>
+                <p>(xxx)</p>
+                <p>(xxx)</p>
+            </div>
+
+            <div class="content-section">
+                <h2>(xxx)</h2>
+                <p>(xxx)</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="page" id="update-2">
+        <div class="container">
+            <button class="back-button" data-back="principal">← (xxx)</button>
+            <h1>(xxx)</h1>
+            
+            <div class="image-placeholder">
+                🖼️
+            </div>
+
+            <div class="content-section">
+                <h2>(xxx)</h2>
+                <p>(xxx)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SISTEMAS PAGE -->
+    <div class="page" id="sistemas">
+        <div class="container">
+            <br><h1> Systems </h1>
+            <p>Esta seção apresenta os principais sistemas que regem a dinâmica do RPG. Aqui, você encontrará informações detalhadas sobre os mecanismos de combate, progressão de personagens, habilidades e demais estruturas que sustentam a experiência de jogo. Cada sistema foi desenvolvido para proporcionar equilíbrio, profundidade estratégica e imersão narrativa. </p>
+
+            <div class="system-grid">
+                <div class="system-card" data-page="sistema-slayer">
+                    <div class="system-icon">⚔️</div>
+                    <div class="system-info">
+                        <div class="system-name">(xxx)</div>
+                        <div class="system-description">(xxx)</div>
+                    </div>
+                </div>
+
+                <div class="system-card" data-page="sistema-oni">
+                    <div class="system-icon">👹</div>
+                    <div class="system-info">
+                        <div class="system-name">(xxx)</div>
+                        <div class="system-description">(xxx)</div>
+                    </div>
+                </div>
+
+                <div class="system-card" data-page="sistema-monetario">
+                    <div class="system-icon">💰</div>
+                    <div class="system-info">
+                        <div class="system-name">(xxx)</div>
+                        <div class="system-description">(xxx)</div>
+                    </div>
+                </div>
+
+                <div class="system-card" data-page="sistema-regras">
+                    <div class="system-icon">📖</div>
+                    <div class="system-info">
+                        <div class="system-name">(xxx)</div>
+                        <div class="system-description">(xxx)</div>
+                    </div>
+                </div>
+
+                <div class="system-card" data-page="sistema-combate">
+                    <div class="system-icon">⚡</div>
+                    <div class="system-info">
+                        <div class="system-name">(xxx)</div>
+                        <div class="system-description">(xxx)</div>
+                    </div>
+                </div>
+
+                <div class="system-card" data-page="sistema-progressao">
+                    <div class="system-icon">📊</div>
+                    <div class="system-info">
+                        <div class="system-name">(xxx)</div>
+                        <div class="system-description">(xxx)</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- SISTEMA SLAYER PAGE -->
+    <div class="page" id="sistema-slayer">
+        <div class="container">
+            <button class="back-button" data-back="sistemas">← (xxx)</button>
+            <h1>(xxx)</h1>
+
+            <div class="image-placeholder">
+                🖼️
+            </div>
+
+            <div class="content-section">
+                <div class="content-icon">⚔️</div>
+                <h2>(xxx)</h2>
+                <p>(xxx)</p>
+            </div>
+
+            <div class="content-section">
+                <h2>(xxx)</h2>
+                <p>(xxx)</p>
+            </div>
+
+            <div class="content-section">
+                <h2>(xxx)</h2>
+                <p>(xxx)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SISTEMA ONI PAGE -->
+    <div class="page" id="sistema-oni">
+        <div class="container">
+            <button class="back-button" data-back="sistemas">← (xxx)</button>
+            <h1>(xxx)</h1>
+
+            <div class="image-placeholder">
+                🖼️
+            </div>
+
+            <div class="content-section">
+                <div class="content-icon">👹</div>
+                <h2>(xxx)</h2>
+                <p>(xxx)</p>
+            </div>
+
+            <div class="content-section">
+                <h2>(xxx)</h2>
+                <p>(xxx)</p>
+            </div>
+
+            <div class="content-section">
+                <h2>(xxx)</h2>
+                <p>(xxx)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SISTEMA MONETARIO PAGE -->
+    <div class="page" id="sistema-monetario">
+        <div class="container">
+            <button class="back-button" data-back="sistemas">← (xxx)</button>
+            <h1>(xxx)</h1>
+
+            <div class="image-placeholder">
+                🖼️
+            </div>
+
+            <div class="content-section">
+                <div class="content-icon">💰</div>
+                <h2>(xxx)</h2>
+                <p>(xxx)</p>
+            </div>
+
+            <div class="content-section">
+                <h2>(xxx)</h2>
+                <p>(xxx)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SISTEMA REGRAS PAGE -->
+    <div class="page" id="sistema-regras">
+        <div class="container">
+            <button class="back-button" data-back="sistemas">← (xxx)</button>
+            <h1>(xxx)</h1>
+
+            <div class="image-placeholder">
+                🖼️
+            </div>
+
+            <div class="content-section">
+                <div class="content-icon">📖</div>
+                <h2>(xxx)</h2>
+                <p>(xxx)</p>
+            </div>
+
+            <div class="content-section">
+                <h2>(xxx)</h2>
+                <p>(xxx)</p>
+            </div>
+
+            <div class="content-section">
+                <h2>(xxx)</h2>
+                <p>(xxx)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SISTEMA COMBATE PAGE -->
+    <div class="page" id="sistema-combate">
+        <div class="container">
+            <button class="back-button" data-back="sistemas">← (xxx)</button>
+            <h1>(xxx)</h1>
+
+            <div class="image-placeholder">
+                🖼️
+            </div>
+
+            <div class="content-section">
+                <div class="content-icon">⚡</div>
+                <h2>(xxx)</h2>
+                <p>(xxx)</p>
+            </div>
+
+            <div class="content-section">
+                <h2>(xxx)</h2>
+                <p>(xxx)</p>
+            </div>
+
+            <div class="content-section">
+                <h2>(xxx)</h2>
+                <p>(xxx)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- SISTEMA PROGRESSAO PAGE -->
+    <div class="page" id="sistema-progressao">
+        <div class="container">
+            <button class="back-button" data-back="sistemas">← (xxx)</button>
+            <h1>(xxx)</h1>
+
+            <div class="image-placeholder">
+                🖼️
+            </div>
+
+            <div class="content-section">
+                <div class="content-icon">📊</div>
+                <h2>(xxx)</h2>
+                <p>(xxx)</p>
+            </div>
+
+            <div class="content-section">
+                <h2>(xxx)</h2>
+                <p>(xxx)</p>
+            </div>
+
+            <div class="content-section">
+                <h2>(xxx)</h2>
+                <p>(xxx)</p>
+            </div>
+        </div>
+    </div>
+
+    <!-- HISTORIA PAGE -->
+    <div class="page" id="historia">
+        <div class="container">
+            <br><h1> História</h1>
+            <h3>Kimetsu no Yaiba: Hyakki Yagyō <br> (鬼滅の刃：百鬼夜行).</h3>
+            <div class="image-placeholder">
+                <img src="lore1.jpg" width="1000px" height="450px"></img>
+            </div>
+
+            <h2> Hyakki Yagyō (Era Taisho) </h2>
+            <p> Na alvorada crepuscular da Era Taisho (大正時代), quando os veus do mundo tangiam os limiares da dissolucao e o ceu, outrora lar dos astros impassiveis, se encerrava em um manto espesso de sombras onde nem mesmo as estrelas ousavam se insinuar, houve um instante — tenue, sagrado e profano — em que o tempo pareceu reter sua marcha, como se o proprio universo, em reverente silencio, assistisse ao desdobrar de um acontecimento que transcenderia a linearidade da historia para inscrever-se no amago do mito eterno: ali, sob o firmamento que tremeluzia como a superficie de um espelho rachado por forcas invisiveis, manifestou-se, nao como um devaneio ou supersticao, mas como realidade corporea e esmagadora, o Hyakki Yagyō (百鬼夜行), o “Desfile Noturno dos Cem Demônios”, processao abissal cujas origens mergulham no inconsciente ancestral do arquipelago japones, reunindo uma centena de onis (鬼) — criaturas cujas existencias, ate entao, habitavam apenas os sutis intersticios entre a oralidade popular, os pergaminhos esquecidos e os murmúrios dos eremitas —, agora convocados em carne e poder sob a lideranca absoluta e aterradora das Jūni no Kizuki (十二鬼月), as “Doze Luas Demoniacas”, arquidemonios de estatura mitologica cuja mera presenca distorcia o ar e cujos olhos contemplavam o mundo nao com desejo, mas com um desprezo sagrado, como se julgassem a criacao um erro digno de ser corrigido pelo fogo e pela treva; e foi contra essa mare viva de escuridao que se ergueram os ultimos bastioes da humanidade — os venerandos Hashira (柱), os “Pilares” da Lâmina, da Honra e da Memoria, herdeiros diretos de linhagens consagradas pelo sacrificio, forjados desde a infancia nao apenas com aco e tecnica, mas com principios que transpassavam o tempo e ancoravam-se em juras seladas pelo sangue e pela renuncia, e que, armados com suas laminas solares e as respiracoes cuja maestria transformava o corpo em extensao do espirito e a espada em prolongamento do destino, lancaram-se contra as hostes demoniacas nao como guerreiros comuns, mas como encarnacoes de ideais imortais, como relampagos vivos que, por um instante, pareciam capazes de perfurar a propria noite — e, todavia, mesmo diante da mais elevada manifestacao da bravura humana, mesmo quando suas tecnicas alcancaram um fulgor quase divino, os Hashira, um a um, tombaram: seus corpos foram ceifados como cerejeiras sob o acoite do inverno, suas almas elevadas como lamparinas consumidas pela ultima brisa no altar de um templo esquecido, entregando seus nomes ao grande silencio, ao sublime martirio da eternidade; porem, se os pilares ruiram, nao o fizeram em vao, pois arrastaram consigo, em sua queda, as mais poderosas Luas Inferiores e Superiores, que, entre as chamas purificadoras e o aco inviolavel das laminas solares, foram despedaçadas em sua carne e em sua arrogancia, ate que, ao fim do confronto, apenas uma entidade remanescesse em pe — o Jōgen no Ichi (上弦の壱), o “Lua Superior Um”, cujo corpo transcendeu a materia e cuja alma, ha muito, deixara de pertencer ao ciclo da morte e renascimento, tornando-se algo impenetravel à razao e inviolavel ao esquecimento, envolto em trevas tao densas que ate a propria escuridao se curvava diante dele; e assim, com a aniquilacao mutua das forcas supremas de ambos os lados, o mundo mergulhou em um vacuo de proposito, autoridade e direcao, onde a Kisatsutai (鬼殺隊) — a “Corporacao dos Cacadores” —, privada de seus pilares, vacilava entre escombros e ecos, entre memorias que doiam e promessas que pesavam mais do que a realidade poderia suportar, enquanto os demonios sobreviventes, agora sem mestres, dispersaram-se nao como feras sem rumo, mas como sombras que sabiam esperar, ocultando-se entre as frestas do mundo humano, tramando em sussurros o renascimento de uma nova ordem demoniaca, mais sutil, mais insidiosa, mais terrivelmente estruturada — um novo circulo de Kizuki (鬼月), reerguido nao sobre o instinto, mas sobre os ossos e os pecados da era anterior, uma especie de “Império Demoniaco”, cujo alvorecer nao sera anunciado com gritos, mas com o silencio implacavel da reorganizacao meticulosa; e é precisamente neste instante liminar, neste intersticio sagrado e profano entre o fim e o que ainda nao comecou, que se ergue o chamado — nao às lendas consumadas, mas aos jovens: espadachins e espadachinas, portadores indignos de um legado que nao lhes foi entregue, mas deixado como uma ferida aberta no coracao do tempo, pois a ausencia dos Hashira nao constitui apenas um vazio a ser preenchido, mas um desafio ao proprio fluxo da historia, um abismo que exige daqueles que se atrevem a atravessa-lo uma transformacao absoluta, um renascimento nao apenas fisico, mas espiritual, onde o nome de cada novo guerreiro devera ser nao eco do passado, mas origem de um futuro inedito, forjado com suor, disciplina e renuncia, pois nao ha gloria para quem apenas imita — ha apenas esquecimento; e, assim, enquanto o mundo cambaleia entre ruinas e possibilidades, entre reliquias e reinvencoes, enquanto os monstros ocultam-se sob peles novas e os juramentos antigos sao postos à prova como espadas que precisam ser retemperadas, o legado do Hyakki Yagyō (百鬼夜行), embora encerrado em sua forma original, permanece como semente adormecida, como fogo subterraneo aguardando um sopro para incendiar novamente o destino, e este novo ciclo — mais cruel, mais refinado, mais inevitavel — ja se insinua como uma escrita ainda por ser tracada, em que cada palavra sera forjada à lamina e selada com sacrificio absoluto, pois é somente à beira da destruicao que a verdadeira forma do espirito humano revela-se, nao como submissao, mas como a mais serena e indomavel expressao da liberdade. </p>           
+
+        </div>
+    </div> 
+
+    <!-- PERSONAGENS PAGE -->
+    <div class="page" id="personagens">
+        <div class="container">            
+            <br><h1> Characters </h1>
+            <p> Nesta seção, apresentamos os personagens que compõem o universo deste RPG. Cada figura possui atributos únicos, uma trajetória singular e um papel essencial na construção da narrativa. Heróis, vilões, aliados e criaturas fantásticas --- todos contribuem para a complexidade e profundidade da história. Explore suas origens, habilidades e motivações, e descubra como suas escolhas influenciam o destino de cada um. </p>
+
+            <div class="character-grid">
+                <div class="character-card">
+                    <div class="character-image"> 
+                        <img src="https://i.pinimg.com/736x/a4/49/b7/a449b72bfc369d8f5a1c8955d2305c3c.jpg"  width="100%" height="100%"></img>
+                    </div>
+                    <div class="character-info">
+                        <div class="character-name">Shesshōmaru</div>
+                        <div class="character-alias">Lua Superior Um</div>
+                        <div class="character-bounty">Recompensa: 1.000.000¥</div>
+                    </div>
+                </div>
+
+                
+                <div class="character-card">
+                    <div class="character-image">
+                        <img src="https://i.pinimg.com/736x/da/df/b4/dadfb4667c238fb107424b1765e3a08e.jpg"  width="100%" height="100%"></img>
+                    </div>
+                    <div class="character-info">
+                        <div class="character-name">Kikyō Ubuyashiki</div>
+                        <div class="character-alias">Líder do Esquadrão de Caçadores de Demônios</div>
+                        <div class="character-bounty">Recompensa: 200.000¥</div>
+                    </div>
+                </div>
+
+                <div class="character-card">
+                    <div class="character-image">
+                        <img src="https://i.pinimg.com/736x/99/94/b2/9994b225fc579af92fd87a58d2f0ba01.jpg"  width="100%" height="100%"></img>
+                    </div>
+                    <div class="character-info">
+                        <div class="character-name">Shuna</div>
+                        <div class="character-alias">Sacerdotisa da Lua</div>
+                        <div class="character-bounty">Recompensa: 20.000¥</div>
+                    </div>
+                </div>
+
+                <div class="character-card">
+                    <div class="character-image">
+                        <img src="https://i.pinimg.com/736x/7d/5d/46/7d5d466011acd064fcd9c2f92dbd8a19.jpg"  width="100%" height="100%"></img>
+                    </div>
+                    <div class="character-info">
+                        <div class="character-name">Satomi Kochō</div>
+                        <div class="character-alias">Líder do Clã Kochō</div>
+                        <div class="character-bounty">Recompensa: 20.000¥</div>
+                    </div>
+            </div>
+
+                <div class="character-card">
+                    <div class="character-image">
+                        <img src="https://i.pinimg.com/1200x/15/0a/c3/150ac3880fc5171217dc7c49679780d7.jpg"  width="100%" height="100%"></img>
+                    </div>
+                    <div class="character-info">
+                        <div class="character-name">Muzan Kibutsuji</div>
+                        <div class="character-alias">Rei Supremo dos Demônios</div>
+                        <div class="character-bounty">Recompensa: 100.000.000¥</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+            <div class="footer-copyright">
+                @ Todos os Direitos Reservados. <br> Densenvolvido por Vih.
+            </div>
+    </footer>
+    <script src="KM.js"></script>
+
+</body>
+</html>
