@@ -405,6 +405,11 @@
         }
 
         /* Responsive */
+@media (max-width: 768px) {
+  h1, h2, h3, p, a {
+    font-size: 50%; /* reduz proporcionalmente */
+  }
+}
         @media (min-width: 768px) {
             .character-grid {
                 grid-template-columns: repeat(3, 1fr);
@@ -436,3 +441,4 @@
             background: #c20000;
 
         }
+
