@@ -163,7 +163,7 @@
         
         .image-placeholder {
             width: 100%;
-            height: 455px;
+            height: auto;
             background: #c20000;
             border: 2px solid #c20000;
             display: flex;
@@ -434,4 +434,5 @@
 
         ::-webkit-scrollbar-thumb:hover {
             background: #c20000;
+
         }
